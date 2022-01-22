@@ -3,7 +3,7 @@ Before consider taking a look at the code, first, I recommend to read the [final
 
 In order to install the requirements of the project use: ``pip3 install requirements.txt``
 
-In order to download the hyperspectral data use this [link](https://mega.nz/folder/wclElBAJ#MUlMT_Fq4KUE8I0SKU_H5A) and place the data into the same directory as the project.
+In order to download the hyperspectral data use this [link](https://mega.nz/folder/wclElBAJ#MUlMT_Fq4KUE8I0SKU_H5A) and place it into the same directory as the scripts.
 
 The scripts that you are able to run are:
 
