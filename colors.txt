@@ -1,0 +1,58 @@
+
+## K-Means = 8 clusters (3 eigenvalues)
+cluster_centers_rgb[0, :] = [255, 145, 0] #Orange
+cluster_centers_rgb[1, :] = [0, 0, 0] #Black
+cluster_centers_rgb[2, :] = [255, 255, 255] #White
+cluster_centers_rgb[3, :] = [108, 59, 42] #Dark brown
+cluster_centers_rgb[4, :] = [155, 155, 155] #Grey
+cluster_centers_rgb[5, :] = [255, 0, 0] #Red (blood pixels)
+cluster_centers_rgb[6, :] = [0, 255, 0] #Green
+cluster_centers_rgb[7, :] = [128, 64, 0] #Brown
+
+## K-Means = 9 clusters
+
+cluster_centers_rgb[0, :] = [0, 0, 0] #Black
+cluster_centers_rgb[1, :] = [155, 155, 155] #Grey
+cluster_centers_rgb[2, :] = [255, 255, 0]  # Yellow
+cluster_centers_rgb[3, :] = [255, 0, 0] #Red (blood pixels)
+cluster_centers_rgb[4, :] = [0, 255, 0] #Green
+cluster_centers_rgb[5, :] = [128, 64, 0] #Brown
+cluster_centers_rgb[6, :] = [255, 255, 255] #White
+cluster_centers_rgb[7, :] = [255, 145, 0] #Orange
+cluster_centers_rgb[8, :] = [108, 59, 42] #Dark brown
+
+
+## K-Means (2 eigenvalues)
+
+cluster_centers_rgb[0, :] = [255, 145, 0] #Orange
+cluster_centers_rgb[1, :] = [0, 0, 0] #Black
+cluster_centers_rgb[2, :] = [255, 255, 255] #White
+cluster_centers_rgb[3, :] = [108, 59, 42] #Dark brown
+cluster_centers_rgb[4, :] = [155, 155, 155] #Grey
+cluster_centers_rgb[5, :] = [0, 255, 0] #Green
+cluster_centers_rgb[6, :] = [255, 0, 0] #Red (blood pixels)
+cluster_centers_rgb[7, :] = [128, 64, 0] #Brown
+
+##NEW DATA
+
+#K-Means = 8 clusters (3 eigenvalues)
+
+cluster_centers_rgb[0, :] = [0, 0, 0] #Black
+cluster_centers_rgb[1, :] = [0, 0, 0]   #Black
+cluster_centers_rgb[2, :] = [0, 255, 0] #Green
+cluster_centers_rgb[3, :] = [108, 59, 42] #Dark brown
+cluster_centers_rgb[4, :] = [128, 64, 0]  #Brown
+cluster_centers_rgb[5, :] = [0, 0, 0]  #Black
+cluster_centers_rgb[6, :] = [251, 177, 23] #Yellow
+cluster_centers_rgb[7, :] = [128, 64, 0]  #Brown
+
+#K-Means = 8 clusters (2 eigenvalues)
+
+cluster_centers_rgb[0, :] = [0, 0, 0] #Black
+cluster_centers_rgb[1, :] = [0, 0, 0]   #Black
+cluster_centers_rgb[2, :] = [251, 177, 23] #Yellow
+cluster_centers_rgb[3, :] = [108, 59, 42] #Dark brown
+cluster_centers_rgb[4, :] = [0, 255, 0] #Green/Black
+cluster_centers_rgb[5, :] = [0, 0, 0]  #Black
+cluster_centers_rgb[6, :] = [0, 0, 0]  #Black
+cluster_centers_rgb[7, :] = [0, 0, 0]  #Black/Green
