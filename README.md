@@ -3,6 +3,8 @@ Before consider taking a look at the code, first, I recommend to read the [final
 
 In order to install the requirements of the project use: ``pip3 install requirements.txt``
 
+In order to download the hyperspectral data use this [link](https://mega.nz/folder/wclElBAJ#MUlMT_Fq4KUE8I0SKU_H5A).
+
 The scripts that you are able to run are:
 
 *   **detection4.py**: to run all quantitative and qualitative experiments (detection and K-Means + detection).
